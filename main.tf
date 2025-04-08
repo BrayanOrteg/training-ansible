@@ -1,8 +1,3 @@
-provider "azurerm" {
-  features {}
-  subscription_id = "a4fd8733-6765-4a14-85dd-4317dd51a3c8"
-}
-
 variable "resource_group_location" {
   description = "Ubicación del grupo de recursos en Azure"
   type        = string
