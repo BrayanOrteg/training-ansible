@@ -1,3 +1,7 @@
+provider "azurerm" {
+   features {}
+ }
+
 variable "resource_group_location" {
   description = "Ubicación del grupo de recursos en Azure"
   type        = string
